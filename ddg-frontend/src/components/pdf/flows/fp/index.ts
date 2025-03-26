@@ -1,0 +1,9 @@
+export { anexo1 } from "./anexo1.ts";
+export { anexo2_1 } from "./anexo2_1.ts";
+export { anexo2_2 } from "./anexo2_2.ts";
+export { anexo3_beca } from "./anexo3_beca.ts";
+export { anexo3_plan } from "./anexo3_plan.ts";
+export { anexo_seguimiento } from "./anexo_seguimiento.ts";
+export { anexo_valoracion } from "./anexo_valoracion.ts";
+export { ffe_evaluacion_prl_anexo1 } from "./ffe_evaluacion_prl_anexo1.ts";
+export { ffe_evaluacion_prl_anexo2 } from "./ffe_evaluacion_prl_anexo2.ts";

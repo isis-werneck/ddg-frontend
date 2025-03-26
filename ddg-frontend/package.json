@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ./src",
+    "format": "prettier --write ./src",
+    "types:openapi": "NODE_TLS_REJECT_UNAUTHORIZED=0 openapi -i https://ddg-api.ddev.site/api/docs.jsonopenapi -o src/services/openapi"
+  },
+  "dependencies": {
+    "@api-platform/admin": "^4.0.2",
+    "@blackbox-vision/ra-language-spanish": "github:blackboxvision/ra-language-spanish",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@mui/x-date-pickers": "^7.23.6",
+    "dayjs": "^1.11.13",
+    "mui-file-input": "^6.0.0",
+    "papaparse": "^5.4.1",
+    "ra-data-simple-rest": "^5.3.0",
+    "ra-i18n-polyglot": "^5.3.2",
+    "ra-language-english": "^5.3.2",
+    "react": "^18.3.0",
+    "react-admin": "^5.3.0",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.3.5",
+    "react-router-dom": "^6.28.0",
+    "react-use": "^17.5.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.15",
+    "@types/node": "^20.10.7",
+    "@types/papaparse": "^5.3.15",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "@vitejs/plugin-react": "^4.0.1",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "openapi-typescript": "^7.4.3",
+    "openapi-typescript-codegen": "^0.29.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.1.6",
+    "vite": "^5.3.5"
+  },
+  "name": "@publicplan/ddg-frontend"
+}
